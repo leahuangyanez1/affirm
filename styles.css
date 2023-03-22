@@ -1,0 +1,55 @@
+body{
+    background-color: blanchedalmond;
+}
+
+img {
+    width:270px;
+    padding-bottom:15px;
+    padding-top:15px;
+}
+
+.affirmations {
+    background-color: rgb(57, 52, 61);
+    color:aliceblue;
+    width:230px;
+    max-width:230px;
+    padding-top:20px;
+    padding-bottom:20px;
+    align-items: center;
+    padding-left: 50px;
+    overflow: hidden;
+    font-family: pixfont, monospace;
+    border-radius: 10px;
+}
+
+.affirmations img{
+    width:60px;
+    float:left;
+}
+
+.firstquad{
+    position:absolute;
+    padding:50px;
+    width:300px;
+}
+
+.secquad{
+    position:absolute;
+    left:300px;
+    padding:50px;
+    width:300px;
+}
+
+.thquad{
+    position:absolute;
+    left:600px;
+    padding:50px;
+    width:300px;
+}
+
+.frthquad{
+    position:absolute;
+    left:900px;
+    padding:50px;
+    width:300px;
+}
