@@ -13,9 +13,9 @@ img {
     color:aliceblue;
     width:230px;
     max-width:230px;
-    padding-top:20px;
-    padding-bottom:20px;
-    align-items: center;
+    padding-top:7px;
+    padding-bottom:7px;
+    align-items:flex-end;
     padding-left: 50px;
     overflow: hidden;
     font-family: pixfont, monospace;
@@ -25,6 +25,9 @@ img {
 .affirmations img{
     width:60px;
     float:left;
+    padding:2px;
+    position:absolute;
+    left:45px;
 }
 
 .firstquad{
