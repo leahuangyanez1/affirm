@@ -1,3 +1,9 @@
+h1{
+    position: absolute;
+    left: 40%;
+    top: -2.8%;
+    color: rgb(163, 117, 167);
+}
 
 body{
     background-color: blanchedalmond;
@@ -12,8 +18,8 @@ img {
 .affirmations {
     background-color: rgb(57, 52, 61);
     color:aliceblue;
-    width:230px;
-    max-width:230px;
+    width:225px;
+    max-width:225px;
     padding-top:7px;
     padding-bottom:7px;
     align-items:flex-end;
@@ -56,4 +62,9 @@ img {
     left:900px;
     padding:50px;
     width:300px;
+}
+
+.feed{
+    position:absolute;
+    left:-10px;
 }
