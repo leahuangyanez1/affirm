@@ -26,26 +26,48 @@ h1{
 }
 
 .credits{
-    border-radius: 2px;
+    border-radius: 5px;
     border-width: 2px;
     border-style: solid;
     border-color: rgb(148, 166, 144);
-    width:230px;
-    height:400px;
+    width:240px;
+    height:380px;
     background-color:rgb(237, 224, 238);
     position:fixed;
     right:35px;
     top:170px;
+    z-index:6;
+}
+
+.sec1{
+    background-color:rgb(230, 236, 231);
+    outline-width: 1px;
+    outline: solid;
+    outline-color: rgb(148, 166, 144);
+}
+
+.sec2{
+    background-color:rgb(239, 228, 237);
+    outline-width: 1px;
+    outline: solid;
+    outline-color: rgb(148, 166, 144);
+}
+
+.cheating{
+    width:200px;
+    height:150px;
+    overflow:hidden;
+    background-color:aqua;
 }
 
 .credits p{
     font-family: hima, monospace;
     font-size:25px;
     right:10px;
-    overflow:auto;
+    overflow:scroll;
 }
 
-.slides{
+#slides{
     border-radius: 2px;
     border-width: 2px;
     border-style: solid;
@@ -53,7 +75,7 @@ h1{
     width:150px;
     height:400px;
     background-color:rgb(237, 224, 238);
-    position:fixed;
+    position:absolute;
     right:35px;
     top:170px;
 }
@@ -62,21 +84,21 @@ h1{
     width:150px;
     position:absolute;
     top:-200px;
-    right:30px;
+    right:35px;
 }
 
 #tiger{
     width:150px;
     position:absolute;
-    bottom:-100px;
-    left:10px;
+    bottom:-240px;
+    right:10px;
 }
 
 img {
 
     width:270px;
-    padding-bottom:15px;
-    padding-top:15px;
+    padding-bottom:10px;
+    padding-top:10px;
 }
 
 .affirmations {
@@ -100,7 +122,7 @@ img {
 .affirmations img{
     width:50px;
     float:left;
-    padding:2px;
+    padding:5px;
     position:absolute;
     left:40px;
 }
@@ -140,7 +162,7 @@ img {
     z-index:3;
     position:absolute;
     left:-10px;
-    top:80px;
+    top:85px;
 }
 
 body {
