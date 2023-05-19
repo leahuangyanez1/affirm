@@ -166,7 +166,7 @@ img {
 }
 
 body {
-    background-color:blanchedalmond; 
+    background-color:blanchedalmond;
     background-image:url('lace1.gif');
     background-position: top;
     background-repeat: repeat-x;
@@ -179,3 +179,12 @@ body {
     right:50px;
 }*/
 
+.submit{
+    text-decoration: none;
+    font-size:25px;
+    color:rgb(124, 80, 129);
+    top:60px;
+    position:absolute;
+    left:30px;
+    letter-spacing: 5px;
+}
