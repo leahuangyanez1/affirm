@@ -1,11 +1,11 @@
 h1{
     z-index:3;
     position: absolute;
-    left: 33%;
+    left: 50%;
     top: 10px;
     color: rgb(124, 80, 129);
     font-size:50px;
-    letter-spacing:30px;
+    letter-spacing:40px;
 }
 
 .headerthing{
@@ -166,7 +166,7 @@ img {
 }
 
 body {
-    background-color:blanchedalmond;
+    background-color:rgb(215, 233, 225);
     background-image:url('lace1.gif');
     background-position: top;
     background-repeat: repeat-x;
